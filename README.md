@@ -15,8 +15,11 @@ Now download and extract Magisk Recovery and Fast-boot tool and move Magisk Reco
 Then press and hold shift key in the keyboard and right click in the extracted Fast boot tool folder and select “Open command window here”.
 
 adb reboot bootloader
+
 fastboot flash recovery_ramdisk Magisk.img
+
 fastboot reboot
+
 adb reboot recovery
 
 
